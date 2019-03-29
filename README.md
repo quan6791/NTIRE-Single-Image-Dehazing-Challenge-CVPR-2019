@@ -3,7 +3,7 @@ NTIRE Workshop and Challenges @ CVPR 2019
 
 This is my work at Challenge
 
-We using the 3D-Unet for dehazing the images.  
+We using the Unet for dehazing the RGB images. The input shape was resized to (512, 512, 3)  
 
     inputs = Input(input_shape)
     conv1 = Dropout(do)(activation()(Conv2D(32, (3, 3), padding='same')(inputs)))
