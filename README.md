@@ -78,7 +78,7 @@ We using the Unet for dehazing the RGB images. The input shape was resized to (5
 
 The result is 
 
-    hcilab	(date) 02/20/19	(PSNR)14.17	 (SSIM)0.48
+    hcilab	PSNR : 14.863022 ||   SSIM:0.475312 || testing time 0.8s
 
 To run the training code using command:
 
